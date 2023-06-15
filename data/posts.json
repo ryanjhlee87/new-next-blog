@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Review of 2021",
+    "description": "Techs I learned in 2021 and my thoughts",
+    "date": "2021-12-31",
+    "category": "my story",
+    "path": "review-2021",
+    "featured": false
+  },
+  {
+    "title": "Coding Javascript",
+    "description": "From basic to advanced JS",
+    "date": "2022-05-08",
+    "category": "javascript",
+    "path": "javascript-basic",
+    "featured": false
+  },
+  {
+    "title": "10 Javascript pro tips!",
+    "description": "10 tips that can make you a pro developer",
+    "date": "2022-06-15",
+    "category": "javascript",
+    "path": "javascript-10-tips",
+    "featured": true
+  },
+  {
+    "title": "Basic Node.js",
+    "description": "Learn basic Node.js",
+    "date": "2022-08-21",
+    "category": "backend",
+    "path": "node-basic",
+    "featured": false
+  },
+  {
+    "title": "Review of 2022",
+    "description": "Techs I learned in 2022 and my thoughts",
+    "date": "2022-12-31",
+    "category": "my story",
+    "path": "review-2022",
+    "featured": false
+  },
+  {
+    "title": "Node.js pro tips!",
+    "description": "Senior developer tips for Node.js",
+    "date": "2023-04-10",
+    "category": "backend",
+    "path": "node-pro-tips",
+    "featured": true
+  },
+  {
+    "title": "React best practice!",
+    "description": "Best ways to use React.js in your project",
+    "date": "2023-04-15",
+    "category": "frontend",
+    "path": "best-react-practices",
+    "featured": true
+  },
+  {
+    "title": "React 18!",
+    "description": "A brand new version of React.js",
+    "date": "2023-05-02",
+    "category": "frontend",
+    "path": "react18-walkthrough",
+    "featured": true
+  },
+  {
+    "title": "Review of 2023",
+    "description": "Techs I learned in 2023 and my thoughts",
+    "date": "2023-12-31",
+    "category": "my story",
+    "path": "review-2023",
+    "featured": true
+  }
+]
