@@ -5,7 +5,7 @@ import PostsCarousel from '@/components/PostsCarousel';
 export default async function Home() {
   return (
     <>
-      <Hero career={null} skills={null} />
+      <Hero />
       <FeaturedPosts />
       <PostsCarousel />
     </>

@@ -2,12 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-type Props = {
-  career: string[] | null;
-  skills: string[] | null;
-};
-
-export default function Hero({ career, skills }: Props) {
+export default function Hero() {
   const TITLE_CLASS = 'text-2xl font-bold';
 
   return (

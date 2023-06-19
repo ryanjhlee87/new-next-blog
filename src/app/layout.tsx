@@ -1,9 +1,10 @@
 import Header from '@/components/Header';
 import './globals.css';
-import { Open_Sans } from 'next/font/google';
+import { Open_Sans, Dancing_Script } from 'next/font/google';
 import Footer from '@/components/Footer';
 
 const sans = Open_Sans({ subsets: ['latin'] });
+export const dancingScript = Dancing_Script({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Create Next App',

@@ -9,7 +9,7 @@ type Props = {
 export default function Categories({ categories, selected, onClick }: Props) {
   return (
     <section className="text-center p-4">
-      <h2 className="text-lg font-bold border-b border-sky-500 mb-2 py-4">
+      <h2 className="text-lg font-bold border-b border-sky-500 w-52 mx-auto pb-2">
         Categories
       </h2>
       <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 justify-between my-12">
