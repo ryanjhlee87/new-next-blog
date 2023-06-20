@@ -1,3 +1,4 @@
+import MarkdownViewer from '@/components/MarkdownViewer';
 import PostContent from '@/components/PostContent';
 import { getPostData } from '@/service/posts';
 import Image from 'next/image';
@@ -14,7 +15,7 @@ export default async function PostPage({ params: { slug } }: Props) {
   const { title, path, next, prev } = post;
 
   return (
-    <article className="rounded-2xl overflow-hidden shadow-lg m-4">
+    <article className="rounded-2xl overflow-hidden bg-gray-300 shadow-lg m-12">
       <Image
         className="w-full h-1/5 max-h-[500px]"
         src={`/images/posts/${path}.png`}
