@@ -4,6 +4,15 @@ import { getPostData } from '@/service/posts';
 import Image from 'next/image';
 import React from 'react';
 
+export async function generateMetadata({ params: { slug } }: Props) {
+  const { title, description } = await getPostData(slug);
+
+  return {
+    title,
+    description,
+  };
+}
+
 type Props = {
   params: {
     slug: string;

@@ -1,5 +1,11 @@
 import Hero from '@/components/Hero';
+import { Metadata } from 'next';
 import React from 'react';
+
+export const metadata: Metadata = {
+  title: 'About Me',
+  description: "Jennifer's Career",
+};
 
 export default function AboutPage() {
   const TITLE_CLASS = 'text-2xl font-bold text-sky-500 my-2';
