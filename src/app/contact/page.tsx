@@ -27,7 +27,7 @@ export default function ContactPage() {
             href={link.url}
             target="_blank"
             rel="norefferer"
-            className="text-5xl hover:text-yellow-400"
+            className="text-5xl hover:text-sky-500"
           >
             {link.icon}
           </a>
