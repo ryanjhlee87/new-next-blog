@@ -24,7 +24,7 @@ export default async function PostPage({ params: { slug } }: Props) {
   const { title, path, next, prev } = post;
 
   return (
-    <article className="rounded-2xl overflow-hidden bg-gray-300 shadow-lg m-12">
+    <article className="rounded-2xl m-2 md:m-12 overflow-hidden bg-gray-300 shadow-lg">
       <Image
         className="w-full h-1/5 max-h-[500px]"
         src={`/images/posts/${path}.png`}
